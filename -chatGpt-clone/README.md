@@ -1,0 +1,1 @@
+This project is a simple implementation of a ChatGPT clone using HTML, CSS, and JavaScript. It provides a basic chat interface where users can interact with a bot that generates responses using predefined rules.
