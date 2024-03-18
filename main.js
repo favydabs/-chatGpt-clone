@@ -42,7 +42,7 @@ const createChatElement = (content, className) => {
 };
 
 const getChatResponse = async (incomingChatDiv) => {
-//   const API_URL = "https://api.openai.com/v1/chat/completions";
+  //   const API_URL = "https://api.openai.com/v1/chat/completions";
   const pElement = document.createElement("p");
 
   // Send POST request to API, get response and set the response as paragraph element text
@@ -79,7 +79,7 @@ const showTypingAnimation = () => {
   // Display the typing animation and call the getChatResponse function
   const html = `<div class="chat-content">
                     <div class="chat-details">
-                        <img src="images/chatbot.jpg" alt="chatbot-img">
+                        <img src="/images/chatbot.jpg" alt="chatbot-img">
                         <div class="typing-animation">
                             <div class="typing-dot" style="--delay: 0.2s"></div>
                             <div class="typing-dot" style="--delay: 0.3s"></div>
@@ -105,7 +105,7 @@ const handleOutgoingChat = () => {
 
   const html = `<div class="chat-content">
                     <div class="chat-details">
-                        <img src="images/user.jpg" alt="user-img">
+                        <img src="/images/user.jpg" alt="user-img">
                         <p>${userText}</p>
                     </div>
                 </div>`;
