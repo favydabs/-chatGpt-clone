@@ -42,7 +42,6 @@ const createChatElement = (content, className) => {
 };
 
 const getChatResponse = async (incomingChatDiv) => {
-  //   const API_URL = "https://api.openai.com/v1/chat/completions";
   const pElement = document.createElement("p");
 
   // Send POST request to API, get response and set the response as paragraph element text
